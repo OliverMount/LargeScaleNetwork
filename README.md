@@ -1,7 +1,5 @@
-{
-    "plugins": ["mathjax"]
-}
-# Neural Signal Propagation
+ 
+# Neural Signal Propagation Framework
  
 
 This post contains large scale neural network (not artificial) simulation (synthetic) using
@@ -19,7 +17,11 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
 ```math
 FLN_{B\simA} = \frac{\sigma}{\sqrt{n}}
 ```
- $
+
+![img] (http://latex.codecogs.com/svg.latex?FLN_%7BB%5CsimA%7D+%3D+%5Cfrac%7B%23+Neurons+projecting+to+area+A+from+area+B%7D%7BTotal+neurons+projecting+to+area+A+from+all+areas%7D+%0D%0A
+ 
+ 
+$ 
 FLN_{B\simA} = \frac{# Neurons projecting to area A from area B}{Total neurons projecting to area A from all areas} 
  $
  
