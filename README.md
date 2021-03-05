@@ -13,6 +13,10 @@ The anotomical connectivity of the *Macaque*, incorporated in our simulations, i
 
 The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons* as
 
+```math
+FLN_{B\simA} = \frac{\sigma}{\sqrt{n}}
+```
+
 
 We aim to replicate the finding in Balanced Amplification: A New Mechanism of Selective Amplification of Neural Activity Patterns (https://www.sciencedirect.com/science/article/pii/S0896627309001287) that uses the Brian2 module.
 
