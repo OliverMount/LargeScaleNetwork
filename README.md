@@ -1,3 +1,6 @@
+{
+    "plugins": ["mathjax"]
+}
 # Neural Signal Propagation
  
 
