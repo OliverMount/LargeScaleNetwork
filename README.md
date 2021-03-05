@@ -25,7 +25,7 @@ FLN_{B\simA} = \frac{# Neurons projecting to area A from area B}{Total neurons p
  
 
 
-We aim to replicate the finding in Balanced Amplification: A New Mechanism of Selective Amplification of Neural Activity Patterns (https://www.sciencedirect.com/science/article/pii/S0896627309001287) that uses the Brian2 module.
+We aim to replicate the finding in Inter-areal Balanced Amplification Enhances Signal Propagation in a Large-Scale Circuit Model of the Primate Cortex (https://www.sciencedirect.com/science/article/pii/S0896627318301521#mmc1) that uses the Brian2 module.
 
 
 
