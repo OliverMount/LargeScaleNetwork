@@ -16,9 +16,7 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
  
   
 FLN_{B-to-A} =  # Neurons projecting to area A from area B Total neurons projecting to area A from all areas 
- 
- $
-\cos $
+$\frac{\frac{x}{1}}{x - y}$
  
 
 
