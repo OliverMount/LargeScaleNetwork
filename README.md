@@ -16,9 +16,9 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
 ```math
 FLN_{B\simA} = \frac{\sigma}{\sqrt{n}}
 ```
-\begin{equation}
+ $
 FLN_{B\simA} = \frac{\sigma}{\sqrt{n}} 
-\end{equation}
+ $
  
 
 
