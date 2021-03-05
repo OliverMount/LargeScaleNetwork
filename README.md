@@ -16,6 +16,10 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
 ```math
 FLN_{B\simA} = \frac{\sigma}{\sqrt{n}}
 ```
+\begin{equation}
+FLN_{B\simA} = \frac{\sigma}{\sqrt{n}} 
+\end{equation}
+ 
 
 
 We aim to replicate the finding in Balanced Amplification: A New Mechanism of Selective Amplification of Neural Activity Patterns (https://www.sciencedirect.com/science/article/pii/S0896627309001287) that uses the Brian2 module.
