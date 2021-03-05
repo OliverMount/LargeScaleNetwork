@@ -18,9 +18,11 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
 FLN_{B-to-A} =  # Neurons projecting to area A from area B Total neurons projecting to area A from all areas 
 $\frac{\frac{x}{1}}{x - y}$
  
-
+These data are available in the xlxs format (https://ars.els-cdn.com/content/image/1-s2.0-S0896627315007655-mmc2.xlsx)
 
 We aim to replicate the finding in Inter-areal Balanced Amplification Enhances Signal Propagation in a Large-Scale Circuit Model of the Primate Cortex (https://www.sciencedirect.com/science/article/pii/S0896627318301521#mmc1) that uses the Brian2 module.
+
+
 
 
 
