@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 29 15:26:04 2021
-
-@author: olive
-"""
-
 #------------------------------------------------------------------------------ 
 # Necessary modules
 #------------------------------------------------------------------------------ 
@@ -48,8 +40,7 @@ p['exc_scale'] = (1+p['eta']*p['hier_vals'])
 fI = lambda x : x*(x>0) # f-I curve
 
 
-########### Choose the injection area
-
+########### Choose the simulation injection area 
 
 area_act = 'V1'
 print('Running network with stimulation to ' + area_act)
@@ -63,19 +54,13 @@ local_IE =  p['beta_inh'] * p['wIE'] * p['exc_scale']
 local_II = -p['beta_inh'] * p['wII']
 
 fln_scaled = (p['exc_scale'] * p['fln_mat'].T).T
-
-
-
-#---------------------------------------------------------------------------------
+ 
+#------------------------------------------------------------------------------ 
 # Simulation Parameters
-#---------------------------------------------------------------------------------
-
-# White noise input parameters
-
+#------------------------------------------------------------------------------  
+# White noise input parameters 
 me=2
-SD=0.5 # Hz
-
-
+SD=0.5 # Hz 
 
 dt = 0.2  # ms
 T = 2500  # ms
@@ -144,11 +129,8 @@ for i_t in range(1, n_t):
 
 ##############################################################################
 ########################### PLOTTING RESULTS #################################
-############################################################################## 
-
-
-### Neural rate series plots
-
+##############################################################################  
+### Neural rate series plots 
 _ = plt.figure(figsize=(4,4))
 area_name_list  = p['areas']
 area_idx_list   = [-1]+[p['areas'].index(name) for name in area_name_list]
@@ -176,7 +158,7 @@ for ax, area_idx in zip(ax_list, area_idx_list):
 f.text(0.01, 0.5, 'Change in firing rate (Hz)', va='center', rotation='vertical')
 ax.set_xlabel('Time (ms)')
 
-
+"""
 #########################################################################
 ### Autocorrelation calculation, plots and exponential fits ############# 
 #########################################################################
@@ -287,3 +269,4 @@ plt.plot(Hemodynamic(100,2))
 # plt.title("Autocorrelation of rate changes at different regions",size=20)
 #plt.ylim([0,1.1])
 
+"""

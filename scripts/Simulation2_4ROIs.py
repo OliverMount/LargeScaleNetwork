@@ -1,13 +1,16 @@
-"""
-Created on Mon Mar 29 18:15:16 2021
-@author: olive
-"""
+from __future__ import division
 
 #------------------------------------------------------------------------------ 
 # Necessary modules
 #------------------------------------------------------------------------------ 
+import os 
 
-from Rate_Modules.modules import *
+import pickle
+import numpy as np
+import matplotlib.pyplot as plt 
+from numpy.random import normal as rnorm 
+import pandas as pd
+#from Rate_Modules.modules import *
 #------------------------------------------------------------------------------ 
 # Network Parameters
 #------------------------------------------------------------------------------ 
@@ -29,7 +32,9 @@ p['eta'] = 0.68
 ## We got all the information of the hierarchy values and the fln matrix.
 # Let me use the original values from the author webpage
 
-FLN_MTX=pd.read_csv('/home/olive/RateModel/FLNmtx.csv')
+os.chdir('/home/olive/LargeScaleNetwork/scripts')
+
+FLN_MTX=pd.read_csv('../data/FLNmtx.csv')
 print(FLN_MTX)
 
 p['hier_vals']=np.array([0,0.25,0.6,0.9])  # Hierarchy values
@@ -189,4 +194,4 @@ for ax, area_idx in zip(ax_list, area_idx_list):
 
 f.text(0.01, 0.5, 'Change in firing rate (Hz)', va='center', rotation='vertical')
 ax.set_xlabel('Time (ms)')
-plt.show()
+plt.show() 
