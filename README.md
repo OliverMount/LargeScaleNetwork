@@ -10,6 +10,7 @@ This repository contains large scale neural network (not artificial) simulation 
 For the rate model, simulations are carried out using Python and for spike model via Brian2 python module (https://github.com/brian-team/brian2/).
 
  
+We aim to replicate the finding in Inter-areal balanced amplification enhances signal propagation in a large-scale circuit model of the Primate Cortex (https://www.sciencedirect.com/science/article/pii/S0896627318301521#mmc1) that uses the Brian2 module.
 
 
 The anotomical connectivity of the *Macaque*, incorporated in our simulations, is obtained from http://core-nets.org/index.php (Database section).
@@ -19,11 +20,4 @@ The anatomical connectivity is defined in terms of *Fraction of Labelled Neurons
 
 FLN_{B-to-A} is the ratio of (# neurons projecting to area A from area B) to the  (Total # neurons projecting to area A from all areas) 
  
-We aim to replicate the finding in Inter-areal balanced amplification enhances signal propagation in a large-scale circuit model of the Primate Cortex (https://www.sciencedirect.com/science/article/pii/S0896627318301521#mmc1) that uses the Brian2 module.
-
-
-
-
-
-
 
